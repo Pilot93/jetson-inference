@@ -76,7 +76,7 @@ int main( int argc, char** argv )
 
 
 	/*
-	 * attach signal handler
+	 *hi attach signal handler
 	 */
 	if( signal(SIGINT, sig_handler) == SIG_ERR )
 		LogError("can't catch SIGINT\n");
